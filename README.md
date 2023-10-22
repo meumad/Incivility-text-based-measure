@@ -47,8 +47,3 @@ Rscript data_preprocessing.R
 
 - `predict_incivility()`: This function takes in new text data and predicts whether the content is civil or not using the trained Random Forest model.
 
-## Authors
-
-Meurer, Marie Madeleine (madeleine.meurer@ju.se)
-
-
