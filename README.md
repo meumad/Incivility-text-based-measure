@@ -41,3 +41,14 @@ To run any script, you can use the Rscript command followed by the script name i
 ```bash
 Rscript data_preprocessing.R
 ```
+
+
+### Function Descriptions
+
+- `predict_incivility()`: This function takes in new text data and predicts whether the content is civil or not using the trained Random Forest model.
+
+## Authors
+
+Meurer, Marie Madeleine (madeleine.meurer@ju.se)
+
+
