@@ -76,6 +76,23 @@ Rscript data_preprocessing.R
 
 These metrics collectively evaluate the performance of our incivility detection model, demonstrating its effectiveness in classifying text data.
 
+### Overview of Different Facets of Incivility
+
+| Facet                | Quote                                                               | Sentiment |
+|----------------------|---------------------------------------------------------------------|-----------|
+| Insults              | Everyone has the right to be stupid, but you're just abusing the privilege. | negative  |
+| Derogatory terms     | What the f*** made you think this is a “love making song”? This is some s*** Plankton would play while fuck*** his computer wife. | negative |
+| Aggressive commands  | Why the hell did that idiot just pull in front of her?!? What an as****! If she didn’t hit him, oncoming traffic might have. It sucks this happened to her already. 😕 | negative |
+| Expressions of hate  | You're an ungodly a********. Those seltzers are newish in the alcohol world and I wouldn't expect someone who hates alcohol to know that. How mature of her to let you know. How immature of you to do what you did. YTA. | negative |
+| Expressions of intolerance | full article for those not gay enough to type in the n-word. | negative |
+| Understatement       | He looks like he's a bit of a scientist himself.                    | neutral   |
+| Passive-aggressive comments | You gotta realize a lot of people come to Reddit to bitch and whine, those who have jobs and are well off probably won’t come to Reddit. | neutral |
+| Factual statements used to belittle or demean | The lady that owned a wedding cake store and secretly only used boxed cake mix from the grocery in all her cakes. IIRC she said she hated making cakes, but loved decorating them and everyone seemed to like the cakes anyway. She still updates the post last I checked. | neutral |
+| Patronizing remarks   | Oh, don't worry your pretty little head about such complex matters. You just focus on something more within your grasp. | positive  |
+| Sarcastic remarks     | Oh, absolutely! Because nothing says 'competent leadership' quite like ignoring all expert advice and making impulsive decisions. Clearly, the best way forward! | positive  |
+
+These facets of incivility are categorized based on the type of content or sentiment expressed in the quotes.
+
 ### Comparison Incivility - Negative Emotion
 
 `Figure 1 - Correaltions Incivility, Negative Emotion (VADER & LIWC)`: The correlation between Incivility (own measure) and Negative Sentiment is rather positive (VADER) and weakly positive (LIWC) respectively. Data points are scattered, indicating significant variability in the relationship.
