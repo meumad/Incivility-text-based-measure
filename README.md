@@ -41,6 +41,41 @@ To run any script, you can use the Rscript command followed by the script name i
 ```bash
 Rscript data_preprocessing.R
 ```
+
+### Validation Incivility Measure
+
+- **Accuracy**: 88.98%
+  - *Interpretation*: The model correctly predicted 88.93% of the instances.
+
+- **F1 Score**: 93.54%
+  - *Interpretation*: An F1 Score of 93.54% is considered very good, indicating a strong balance between precision and recall.
+
+- **95% CI for Accuracy**: 87.97%-89.85%
+  - *Interpretation*: We are 95% confident that the true accuracy of the model falls within this range.
+
+- **No Information Rate (NIR)**: 82.35%
+  - *Interpretation*: This represents the accuracy if the model predicted the most prevalent class for all predictions.
+
+- **P-Value [Acc > NIR]**: < 2.2e-16
+  - *Interpretation*: The model's accuracy is significantly better than the NIR, indicating predictions better than random chance.
+
+- **Positive Predictive Value (Precision)**: 90.09%
+  - *Interpretation*: When the model predicts a positive instance, it is correct 90.09% of the time.
+
+- **Negative Predictive Value**: 79.67%
+  - *Interpretation*: When the model predicts a negative instance, it is correct 79.67% of the time.
+
+- **Prevalence**: 82.35%
+  - *Interpretation*: The actual occurrence rate of the positive class in the dataset.
+
+- **Detection Rate**: 80.10%
+  - *Interpretation*: The rate at which the model identifies true positives, calculated as the product of prevalence and sensitivity.
+
+- **Detection Prevalence**: 88.91%
+  - *Interpretation*: How often the model predicts the positive class, which may suggest a model bias towards predicting positives.
+
+These metrics collectively evaluate the performance of our incivility detection model, demonstrating its effectiveness in classifying text data.
+
 ### Comparison Incivility - Negative Emotion
 
 `Figure 1 - Correaltions Incivility, Negative Emotion (VADER & LIWC)`: The correlation between Incivility (own measure) and Negative Sentiment is rather positive (VADER) and weakly positive (LIWC) respectively. Data points are scattered, indicating significant variability in the relationship.
