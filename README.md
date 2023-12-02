@@ -41,7 +41,9 @@ To run any script, you can use the Rscript command followed by the script name i
 ```bash
 Rscript data_preprocessing.R
 ```
+### Comparison Incivility - Negative Emotion
 
+`Figure 1 (Correaltions Incivility - Negative Emotion (VADER & LIWC)`: The correlation between Incivility (own measure) and Negative Sentiment is rather positive (VADER) and weakly positive (LIWC) respectively. Data points are scattered, indicating significant variability in the relationship.
 
 ### Function Descriptions
 
