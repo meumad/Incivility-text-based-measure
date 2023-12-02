@@ -43,7 +43,7 @@ Rscript data_preprocessing.R
 ```
 ### Comparison Incivility - Negative Emotion
 
-`Figure 1 (Correaltions Incivility - Negative Emotion (VADER & LIWC)`: The correlation between Incivility (own measure) and Negative Sentiment is rather positive (VADER) and weakly positive (LIWC) respectively. Data points are scattered, indicating significant variability in the relationship.
+`Figure 1 - Correaltions Incivility, Negative Emotion (VADER & LIWC)`: The correlation between Incivility (own measure) and Negative Sentiment is rather positive (VADER) and weakly positive (LIWC) respectively. Data points are scattered, indicating significant variability in the relationship.
 
 ### Function Descriptions
 
